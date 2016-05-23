@@ -2,7 +2,7 @@ from frappe import _
 
 def get_data():
 	return {
-		"ERPNext.com": {
+		"erpnext_com": {
 			"color": "black",
 			"icon": "icon-globe",
 			"type": "module",
