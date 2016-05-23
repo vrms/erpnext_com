@@ -1,0 +1,11 @@
+{
+	"title": "ERP for Manufacturing",
+	"site": "Manufacturing",
+	"headline": "ERP for Manufacturing",
+	"sub_headline": "Manage manufacturing, bill of materials, plan materials (MRP) with ERPNext",
+	"primary_label": "Sign up for a free account",
+	"primary_link": "/signup?domain=Manufacturing",
+	"sections": [
+		"bill_of_materials"
+	]
+}

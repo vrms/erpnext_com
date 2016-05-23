@@ -1,0 +1,9 @@
+{
+	"title": "Manufacturing Features",
+	"site": "Manufacturing",
+	"headline": "MRP, Production Planning, Scheduling",
+	"sections": [
+		"bill_of_materials",
+		"production_planning_tool"
+	]
+}

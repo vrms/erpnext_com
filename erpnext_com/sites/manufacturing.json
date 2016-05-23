@@ -1,0 +1,15 @@
+{
+	"title": "Manufacturing",
+	"brand_html": "Manufacturing",
+	"home": "/manufacturing",
+	"nav": [
+		{
+			"title": "Features",
+			"url": "/manufacturing/features"
+		},
+		{
+			"title": "Sign Up",
+			"url": "/signup?domain=Manufacturing"
+		}
+	]
+}

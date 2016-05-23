@@ -1,0 +1,49 @@
+<!-- Hero Section -->
+{% include "templates/includes/navbar/subnav.html" %}
+<div class="row hero">
+	<div class="col-sm-12 hero-content">
+		<h1>{{ headline }}</h1>
+
+		<p class="text-muted later sub-heading"> {% if sub_headline %} {{ sub_headline }} {% endif %}</p>
+
+		{% if primary_label %}
+		 <a class="x-large blue button later" href="{{ primary_link }}">{{ primary_label }}</a>
+		{% endif %}
+
+		{% if secondary_label %}
+		<p class="secondary-link later">
+		    <a class="no-decoration" href="{{ secondary_link }}">{{ secondary_label }}</a>
+		</p>
+		{% endif %}
+
+	{% if image %}
+		<div class="padding">
+			<img class="erp-hero" src="{{ image }}">
+		</div>
+	{% endif %}
+	</div>
+</div>
+<!-- Content -->
+<div class="row section text-center erpnext-features">
+{% for f in full_sections %}
+	<div class="col-sm-12 erp-feature">
+		<h1 class="feature-title"> {{ f.headline }}</h1>
+		<p class="narrow">{{ f.sub_headline }}</p>
+		<div class="fake-browser-frame">
+		<img class="img-responsive browser-image feature-image" src="{{ f.image }}">
+		</div>
+	</div>
+{% endfor %}
+</div>
+
+<div class="grid-section row section later">
+{% for feature in full_grid_sections %}
+    <div class="col-sm-4 col-xs-4 small-content">
+		{% if f.image %}
+		<img src="{{ f.image }}">
+		{% endif %}
+		 <h1>{{ f.headline }}</h1>
+		 <p>{{ f.sub_headline }}</p>
+    </div>
+{% endfor %}
+</div>

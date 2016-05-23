@@ -24,6 +24,8 @@ website_context = {
 	"favicon": "/assets/frappe_theme/img/favicon.ico"
 }
 
+build_json_page = 'erpnext_com.make_page.make'
+
 translated_languages_for_website = ["ja"]
 
 # Includes in <head>

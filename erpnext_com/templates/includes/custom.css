@@ -3,6 +3,10 @@
     margin: auto;
 }
 
+/*.navbar-main {
+	background-color: #f5f7fa;
+}
+*/
 .hero-content h1 {
     font-size: 1.85em;
     font-weight: 300;
@@ -183,8 +187,6 @@
 
 .subnav {
   top: 0px;
-  background-color: rgb(247,247,247); 
-  border-bottom: 1px solid #d1d8dd;
 }
 
 .subnav.affix {
