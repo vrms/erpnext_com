@@ -14,8 +14,7 @@ To create a new **DocType**, go to:
 #### DocType Detail
 
 1. Module: Select module in which this Doctype should be placed.
-1. Document Type: Specify if this Doctype will be to carry master data, or to track transactions. Doctype
-for book will be added as Master.
+1. Name: Specify a name for the new DocType
 1. Is Child table: If this Doctype is to be inserted as table into another Doctype, like Item table
 in the Sales Order Doctype, then you should check Is Child Table. Else no.
 1. Is Single: If checked, this Doctype will become a single form, like Selling Setting, which user will
@@ -57,7 +56,7 @@ In this table, you should select roles and define permission roles for them for 
 
 #### Save DocType
 
-On saving doctype, you will get pop-up to provide name for this Doctype.
+Click the "Save" button on the upper right to actually create the new DocType. At this step a new table and it's respective Columns will be added to your Database. If there are any logical erros in the Doctype you will be prompted for them and have to adjust those before you actually can Save the DocType. It is not possible to save a Custom Doctype in a Draft state, so the best approach would be to go save it incrementally when it get's complex. Solve the problems that will appear with each incremental step and extend the complexitz of a DocType step by step like this.
 
 <img alt="Doctype Save" class="screenshot" src="{{docs_base_url}}/assets/img/setup/customize/Doctype-save.png">
 
